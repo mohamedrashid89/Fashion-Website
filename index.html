@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <!-- Link  to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="images/logo.png">
+            </a>
+            <!-- Nav Links -->
+            <ul class="navbar">
+                <li><a href="#home" class="active"></i>Home</a></li>
+                <li><a href="#featured"></i>Featured</a></li>
+                <li><a href="#shop"></i>Shop</a></li>
+                <li><a href="#new"></i>New</a></li>
+            </ul>
+            <!-- Icons -->
+            <div class="nav-icons">
+                <a href="#" class="user"><i class='bx bx-user'></i></a>
+                <a href="#" class="cart"><i class='bx bx-cart'></i><span>0</span></a>
+                <i class='bx bx-menu' id="menu-icon"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End of Navbar -->
+    <!-- Home -->
+    <section class="home" id="home">
+        <!-- Home Content -->
+        <div class="home-container container">
+            <div class="home-text">
+                <h1>Welcome To Our E-Commerce Store!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- Home Button -->
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <!-- Home Image -->
+            <div class="home-image">
+                <img src="images/home.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End of Home -->
+    <!-- Featured -->
+    <section class="featured" id="featured">
+        <!-- Featured Title -->
+        <div class="title">
+            <h3>Featured Items</h3>
+        </div>
+
+        <div class="featured-container container">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="images/featured1.png" alt="">
+                <div class="text">
+                    <h2>New Collection <br>Of Shoes</h2>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="text">
+                    <h2>20% Discount <br>On Shoes</h2>
+                    <a href="#">View More</a>
+                </div>
+                <img src="images/featured2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End of Featured -->
+    <!-- Shop -->
+    <section class="shop" id="shop">
+        <!-- Shop Title -->
+        <div class="title">
+            <h3>Shop By Category</h3>
+        </div>
+        <!-- shop Content -->
+        <div class="shop-content container">
+            <!-- Category 1 -->
+            <div class="category">
+                <img src="images/shop1.png" alt="">
+                <h2>Nike Therma</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/shop2.png" alt="">
+                <h2>Nike Therma</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/shop3.png" alt="">
+                <h2>Nike Therma</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/shop4.png" alt="">
+                <h2>Nike Therma</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/shop5.png" alt="">
+                <h2>Nike Therma</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/shop6.png" alt="">
+                <h2>Nike Therma</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Shop -->
+    <!-- New Container -->
+    <section class="new" id="new">
+        <!-- New Title -->
+        <div class="title">
+            <h3>New Arrival</h3>
+        </div>
+        <!-- New Content -->
+        <div class="shop-content container">
+            <!-- Category 1 -->
+            <div class="category">
+                <img src="images/new1.png" alt="">
+                <h2>Nike Shops</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/new2.png" alt="">
+                <h2>Nike Bag</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+            <div class="category">
+                <img src="images/new3.png" alt="">
+                <h2>Nike Hat</h2>
+                <span>$ 50.99</span>
+                <a href="#"><i class="bx bx-cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End of New Container -->
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+        <!-- Newsletter Title -->
+        <div class="title">
+            <h3>Subscribe To Our Newsletter!</h3>
+        </div>
+        <!-- Newsletter Form -->
+        <form action="" method="post">
+            <input type="email" name="email" placeholder="Your Email Here..." class="email-box" required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+    <!-- End of Newsletter -->
+    <!-- Footer -->
+    <section class="footer container">
+        <div class="footer-box">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="images/logo.png">
+            </a>
+            <!-- Social Media Icons -->
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h4>Pages</h4>
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#shop">Shop</a>
+            <a href="#new">New</a>
+        </div>
+        <div class="footer-box">
+            <h4>Legal</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Refund Policy</a>
+        </div>
+        <div class="footer-box">
+            <h4>Contact Us</h4>
+            <p><strong>Email:</strong> info@example.com</p>
+            <p><strong>Phone Number:</strong> +12 345 67890</p>
+            <p><strong>Address:</strong> 123 Street, City, Country</p>
+        </div>
+    </section>
+    <!-- End of Footer -->
+    <!-- Copyright -->
+    <div class="copyright">
+        <span>&copy; All rights reserved | Design by <a href="https://www.template.
+            html/editable/websites/ecommerce_store_template" target="_blank">index.html</a>
+        </span>
+    </div>
+    <!-- End of Copyright -->
+    <!-- Links to JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
